@@ -36,8 +36,7 @@ def load_llm():
     Load the LLM
     """
     # Model ID
-    repo_id = 'meta-llama/Llama-2-7b-chat-hf'
-
+    repo_id = 'MBZUAI/LaMini-T5-738M'
     # Load the model
     model = AutoModelForCausalLM.from_pretrained(
         repo_id,
